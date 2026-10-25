@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5f8">
+  <title>มีอะไรอยากบอกเธอ 🌼</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky-glow"></div>
+  <div id="petalLayer" aria-hidden="true"></div>
+  <div id="memoryLayer" aria-hidden="true"></div>
+  <main class="experience">
+    <div class="top-note" id="topNote">a little story, just for you</div>
+    <section class="garden" aria-label="ทุ่งดอกเดซี่">
+      <div class="horizon"></div>
+      <div class="flowers" id="flowers"></div>
+      <div class="grass grass-back"></div>
+      <div class="grass grass-front"></div>
+    </section>
+
+    <section class="story-card" id="storyCard">
+      <div class="scene-count" id="sceneCount">SCENE 01 / 05</div>
+      <p class="story-text" id="storyText"></p>
+      <p class="story-text story-text-2" id="storyText2"></p>
+      <button class="next-button" id="nextButton">ค่อย ๆ ไปด้วยกัน <span>♡</span></button>
+    </section>
+
+    <section class="proposal hidden" id="proposal">
+      <div class="proposal-heart">♡</div>
+      <h1>เรามาเป็นแฟนกันนะครับ :)</h1>
+      <p>ถ้าคุณรู้สึกแบบเดียวกัน… เลือกคำตอบได้เลยนะ</p>
+      <div class="answer-buttons">
+        <button id="yesButton" class="yes-button">Yes 💗</button>
+        <button id="noButton" class="no-button">No 🙈</button>
+      </div>
+      <p class="tiny-hint" id="tinyHint">ลองเลือกดูสิครับ 🌼</p>
+    </section>
+
+    <section class="happy-ending hidden" id="happyEnding">
+      <div class="ending-sparkle">✦ ✧ ✦</div>
+      <h1>สวัสดีครับ คุณแฟน 💖</h1>
+      <p>ขอบคุณที่เริ่มต้นบทใหม่ไปด้วยกันนะ</p>
+      <div class="ending-flower">🌼 🌷 🌼</div>
+      <button id="replayButton" class="next-button">ย้อนดูเรื่องราวอีกครั้ง ↺</button>
+    </section>
+  </main>
+
+  <audio id="loveSong" src="Img/khor-won-2.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
